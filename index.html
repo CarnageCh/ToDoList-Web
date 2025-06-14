@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1E40AF">
+    <title>To Do List App Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>Your To-Do-List <img src="assets/logo.png" alt="logo" class="todo-logo"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add Something To Do" aria-label="Add new task">
+                <button onclick="addTask()" aria-label="Add task">Add</button>
+            </div>
+            <ul id="list-container" aria-label="Task list">
+                <!-- Tasks will be added dynamically -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
